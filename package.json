@@ -1,0 +1,32 @@
+{
+  "name": "nikodraw",
+  "displayName": "Nickodim Cherepanov Draw Tool",
+  "version": "1.0",
+  "publisher": "nikochir",
+  "author": {
+    "name": "Nickodim Cherepanov",
+    "url": "https://github.com/nikochir"
+  },
+  "categories": [
+    "Presets",
+    "Palettes",
+    "Scripts"
+  ],
+  "contributes": {
+    "aseprites": [
+      { "id": "ase_bit1x128x128", "path": "./ase/bit1x128x128.ase" },
+      { "id": "ase_bit2x128x128", "path": "./ase/bit2x128x128.ase" },
+      { "id": "ase_bit3x128x128", "path": "./ase/bit3x128x128.ase" },
+      { "id": "ase_bit4x128x128", "path": "./ase/bit4x128x128.ase" }
+    ],
+    "palettes": [
+      { "id": "pal_bit1", "path": "./pal/bit1.gpl" },
+      { "id": "pal_bit2", "path": "./pal/bit2.gpl" },
+      { "id": "pal_bit3", "path": "./pal/bit3.gpl" },
+      { "id": "pal_bit4", "path": "./pal/bit4.gpl" }
+    ],
+    "scripts": [
+    	{ "id": "lua_test", "path": "./lua/test.lua" }
+    ]
+  }
+}
